@@ -9,7 +9,7 @@ body{
 #top-headline{
     font-size: 3em;
 }
-#second-section-banner{
+.section-banner{
     font-size: 2em;
 }
 .orange-color{
@@ -30,15 +30,45 @@ body{
     font-weight: 700;
     border-radius: 5px;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-#second-para{
+.paragraph-format{
     padding-right: 10%;
+}
+footer p {
+    text-align: center;
+}
+#full-stack-experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(247, 84, 56), orange);
+    border-image-slice: 1;
+}
+#web-learner-experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
